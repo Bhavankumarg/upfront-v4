@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80">
+  <g id="Group_51997" data-name="Group 51997" transform="translate(-276 -616)">
+    <circle id="Ellipse_510" data-name="Ellipse 510" cx="40" cy="40" r="40" transform="translate(276 616)" fill="#0b0b0b"/>
+    <g id="Group_49898" data-name="Group 49898" transform="translate(-250.226 -825.121)" opacity="0.8">
+      <g id="Group_49894" data-name="Group 49894" transform="translate(549 1459.6)">
+        <g id="Group_49895" data-name="Group 49895" transform="translate(0 0)">
+          <path id="Path_74110" data-name="Path 74110" d="M14.386,37.923c-.967.372-2,.737-3.1,1.079C4.271,41.187,4.1,36.93,4.1,36.93V29.54l-3.1.1L2.113,18.073a17.134,17.134,0,0,1,34.267,0s-.34,6.205-4.729,10.113c0,0-2.394,4.188,1.957,12.577" transform="translate(-1 -1)" fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="1.4"/>
+          <line id="Line_144" data-name="Line 144" y1="6.978" transform="translate(13.611 36.923)" fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="1.4"/>
+        </g>
+      </g>
+      <g id="Group_49897" data-name="Group 49897" transform="translate(559.356 1467.744)">
+        <path id="Path_74114" data-name="Path 74114" d="M29.269,16.28a8.542,8.542,0,1,0-14.455,6.16,3.289,3.289,0,0,1,.98,2.379v3.468a1.856,1.856,0,0,0,1.856,1.856h6.107a1.856,1.856,0,0,0,1.856-1.856v-3.5a3.279,3.279,0,0,1,1.038-2.355A8.511,8.511,0,0,0,29.269,16.28Z" transform="translate(-12.187 -7.739)" fill="none" stroke="#fff" stroke-width="1.4"/>
+        <path id="Path_74115" data-name="Path 74115" d="M33.6,68.858a2.6,2.6,0,0,1-5.19,0Z" transform="translate(-22.461 -46.454)" fill="none" stroke="#fff" stroke-width="1.4"/>
+        <path id="Path_74116" data-name="Path 74116" d="M31.363,22.122h-.607a.656.656,0,0,1-.606-.4l-.006-.015a.631.631,0,0,1,.137-.688l.441-.441a.306.306,0,0,0,0-.433L29.46,18.88a.306.306,0,0,0-.432,0l-.441.441a.631.631,0,0,1-.688.137l-.031-.013a.631.631,0,0,1-.389-.583v-.624a.306.306,0,0,0-.306-.306H25.39a.306.306,0,0,0-.306.306v.607a.655.655,0,0,1-.4.606h0a.657.657,0,0,1-.716-.142l-.429-.429a.306.306,0,0,0-.432,0L21.842,20.14a.306.306,0,0,0,0,.433l.429.429a.656.656,0,0,1-.464,1.12H21.2a.306.306,0,0,0-.306.306V24.21a.306.306,0,0,0,.306.306h.624a.631.631,0,0,1,.583.389l.013.031a.631.631,0,0,1-.137.688l-.441.441a.306.306,0,0,0,0,.433l1.265,1.265a.308.308,0,0,0,.423,0l.434-.434a.657.657,0,0,1,.716-.142l.015.007a.631.631,0,0,1,.389.583V28.4a.306.306,0,0,0,.306.306h1.783a.306.306,0,0,0,.306-.306v-.607a.656.656,0,0,1,1.12-.464l.434.434a.3.3,0,0,0,.423,0L30.721,26.5a.306.306,0,0,0,0-.433l-.441-.441a.631.631,0,0,1-.137-.688l.007-.016a.656.656,0,0,1,.606-.4h.607a.306.306,0,0,0,.306-.306V22.428A.306.306,0,0,0,31.363,22.122Z" transform="translate(-17.703 -14.196)" fill="none" stroke="#fff" stroke-width="1.4"/>
+        <ellipse id="Ellipse_205" data-name="Ellipse 205" cx="1.769" cy="1.769" rx="1.769" ry="1.769" transform="translate(6.81 7.355)" fill="none" stroke="#fff" stroke-width="1.4"/>
+      </g>
+      <line id="Line_149" data-name="Line 149" y1="2.986" transform="translate(567.807 1463.069)" fill="none" stroke="#fff" stroke-width="1.4"/>
+      <line id="Line_152" data-name="Line 152" x1="1.468" y1="2.582" transform="translate(561.857 1464.613)" fill="none" stroke="#fff" stroke-width="1.4"/>
+      <line id="Line_153" data-name="Line 153" y1="2.456" x2="1.336" transform="translate(572.377 1464.572)" fill="none" stroke="#fff" stroke-width="1.4"/>
+    </g>
+  </g>
+</svg>
