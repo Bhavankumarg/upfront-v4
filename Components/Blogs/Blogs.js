@@ -5,6 +5,7 @@ import React, { useEffect, useState } from "react";
 import { FiArrowRight } from "react-icons/fi";
 import ConfigData from "../../config";
 import RecentBlogs from "./RecentBlogs";
+import Image from "next/image";
 const Blogs = () => {
   const siteUrl = ConfigData.wpApiUrl;
   const serverUrl = ConfigData.SERVER;
@@ -94,7 +95,9 @@ const Blogs = () => {
                       <div className="relative overflow-hidden">
                         {post.acf && post.acf.thumbnail_image && (
                           <>
-                            <img
+                            <Image
+                            width={500}
+                            height={300}
                               src={post.acf.thumbnail_image.url}
                               alt={post.title.rendered}
                               className="h- object-cover w-full transform transition-transform duration-500 group-hover:scale-110"

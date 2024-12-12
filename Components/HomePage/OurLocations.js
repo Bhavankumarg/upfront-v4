@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useState } from "react";
 
 export default function BubbleTabs() {
@@ -48,7 +49,9 @@ export default function BubbleTabs() {
       <div className="mt-6 flex justify-center gap-x-4">
         {activeTab === "global" && (
           <div class="flex flex-col items-center">
-            <img
+            <Image
+            width={400}
+            height={300}
               src="/HomePage/OurLocations/WorldMap.svg"
               alt="Global Image"
               className="object-cover"
@@ -57,7 +60,9 @@ export default function BubbleTabs() {
         )}
         {activeTab === "india" && (
           <div class="flex flex-col items-center">
-            <img
+            <Image
+            width={400}
+            height={400}
               src="/HomePage/OurLocations/IndiaMap.png"
               alt="India Image"
               className="w-96"

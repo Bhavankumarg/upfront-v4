@@ -21,6 +21,7 @@ const WhatWeDo = () => {
           width={650}
           height={500}
           className=""
+          alt="info-img"
         />
       </div>
       <div>

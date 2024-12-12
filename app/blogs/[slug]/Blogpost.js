@@ -5,6 +5,7 @@ import Link from "next/link";
 import ConfigData from "../../../config";
 import { RiArrowLeftLine, RiArrowRightLine } from "react-icons/ri";
 import { FiArrowRight } from "react-icons/fi";
+import Image from "next/image";
 
 const BlogPosts = ({ slug }) => {
   const siteUrl = ConfigData.wpApiUrl;
@@ -132,7 +133,9 @@ const BlogPosts = ({ slug }) => {
                 />
                 {post.acf?.banner_image?.url && (
                   <div>
-                    <img
+                    <Image
+                    width={600}
+                    height={400}
                       src={post.acf.banner_image.url}
                       alt={post.title.rendered}
                       className="w-full mb-5 p-5 lg:p-0"
@@ -188,7 +191,9 @@ const BlogPosts = ({ slug }) => {
                           <div className="relative z-10">
                             <div className="relative overflow-hidden">
                               {post.acf?.banner_image?.url && (
-                                <img
+                                <Image
+                                width={400}
+                                height={400}
                                   src={post.acf.banner_image.url}
                                   alt={post.title.rendered}
                                   className="object-cover w-full transform transition-transform duration-500 group-hover:scale-110"

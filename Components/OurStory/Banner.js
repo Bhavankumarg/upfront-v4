@@ -36,7 +36,9 @@ const Banner = () => {
               {/* Card 1 */}
               <div className="flex flex-col items-center text-center lg:border-r-2 border-b-2 py-4 lg:border-b-0">
                 <div className="rounded-full mb-4">
-                  <img
+                  <Image
+                  width={50}
+                  height={50}
                     src="/OurStory/img-1.svg"
                     alt="Potential Icon"
                     className="w-12 h-12"
@@ -48,7 +50,9 @@ const Banner = () => {
               {/* Card 2 */}
               <div className="flex flex-col items-center text-center border-b-2 py-4 lg:border-b-0">
                 <div className="rounded-full mb-4">
-                  <img
+                  <Image
+                  width={50}
+                  height={50}
                     src="/OurStory/img-2.svg"
                     alt="Wellbeing Icon"
                     className="w-12 h-12"
@@ -63,13 +67,15 @@ const Banner = () => {
               {/* Card 3 */}
               <div className="flex flex-col items-center text-center lg:border-l-2">
                 <div className="rounded-full mb-4">
-                  <img
+                <Image
+                  width={50}
+                  height={50}
                     src="/OurStory/img-3.svg"
                     alt="Human Rights Icon"
-                    className="w-12 h-12"
+                    className="w-12 h-12 mt-2"
                   />
                 </div>
-                <h3 className="para-color">
+                <h3 className="para-color mt-3">
                   Human rights are central to human and economic development
                 </h3>
               </div>

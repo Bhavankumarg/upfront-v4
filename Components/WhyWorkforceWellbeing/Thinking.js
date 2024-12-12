@@ -6,7 +6,7 @@ const Thinking = () => {
     <div className="bg-[#EAEAEA]">
       <div className="text-center">
         <div className="flex justify-center">
-          <Image src="/WhyWorkForce/upfront.png" width={200} height={200}className="mt-10" />
+          <Image src="/WhyWorkForce/upfront.png" width={200} height={200}className="mt-10" alt="upfront"/>
         </div>
         <div className="flex justify-center items-center container mx-auto lg:mt-7 mt-3">
           <p className="lg:text-3xl text-2xl secondary-title lg:w-[55vw] lg:p-0 p-2">
@@ -51,6 +51,7 @@ const Thinking = () => {
           height={300}
           src="/WhyWorkForce/img-1.png"
           className="lg:float-end lg:w-72 w-52 lg:mt-0 mt-5"
+          alt="upfront"
         />
       </div>
 
@@ -61,6 +62,7 @@ const Thinking = () => {
           height={300}
           src="/WhyWorkForce/img-2.png"
           className="lg:w-full mx-auto w-56"
+          alt="upfront"
         />
        
         <div className="container mx-auto lg:mt-0 mt-5">

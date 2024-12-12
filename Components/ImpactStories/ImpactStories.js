@@ -4,6 +4,7 @@ import Link from "next/link";
 import React, { useEffect, useState } from "react";
 import { FiArrowRight } from "react-icons/fi";
 import ConfigData from "../../config";
+import Image from "next/image";
 
 const ImpactStories = () => {
   const siteUrl = ConfigData.wpApiUrl;
@@ -86,7 +87,9 @@ const ImpactStories = () => {
                             <h3 className="lg:text-2x text-xl text-[#262626] group-hover:text-white flex items-center mb-6">
                               {post.title.rendered}
                             </h3>
-                            <img
+                            <Image
+                            width={400}
+                            height={400}
                               src={post.acf.thumbnail_image.url}
                               alt={post.title.rendered}
                               className="lg:h-72 object-cover w-full transform transition-transform duration-500 group-hover:scale-110"

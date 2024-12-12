@@ -8,7 +8,7 @@ const OurApproach = () => {
         <p className="text-3xl">Our Approach</p>
       </div>
       <div className="flex flex-col justify-center items-center text-center">
-        <Image src="/OurStory/OurApproach/info.png" width={700} height={400} />
+        <Image src="/OurStory/OurApproach/info.png" width={700} height={400} alt="info"/>
         <p className="p-4 lg:w-[50vw] mt-7 lg:mt-0">
           Upfront prioritises the wellbeing of both the formal and informal
           workforce, placing their health and happiness at the core of its work

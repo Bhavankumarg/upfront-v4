@@ -3,6 +3,7 @@ import { useState } from "react";
 import { ThematicAreas } from "@/utils/data";
 import { FiArrowRight } from "react-icons/fi";
 import Modal from "./Modal"; // If placed in a separate file
+import Image from "next/image";
 
 export default function CardsLayout() {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -45,7 +46,9 @@ export default function CardsLayout() {
               <div className="absolute inset-0 bg-[#E8E8E8] transform scale-x-0 origin-left transition-transform duration-500 group-hover:scale-x-100 z-0"></div>
               <div className="relative z-10">
                 <div className="relative overflow-hidden">
-                  <img
+                  <Image
+                  width={400}
+                  height={400}
                     src={card.image}
                     alt={card.title}
                     className="h-80 object-cover w-full transform transition-transform duration-500 group-hover:scale-110"

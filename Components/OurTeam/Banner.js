@@ -17,7 +17,7 @@ const Banner = () => {
         </div>
       </div>
       <div className="">
-        <Image src="/OurTeam/banner.png" width={900} height={500} className="w-full h-auto"/>
+        <Image src="/OurTeam/banner.png" width={900} height={500} className="w-full h-auto" alt="banner team"/>
       </div>
     </>
   );

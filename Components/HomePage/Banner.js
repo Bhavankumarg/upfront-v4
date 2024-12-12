@@ -10,6 +10,7 @@ const Banner = () => {
           width={1200}
           height={900}
           className="w-full"
+          alt="home banner"
         />
       </div>
     </div>

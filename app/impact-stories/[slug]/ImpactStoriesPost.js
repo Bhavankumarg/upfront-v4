@@ -5,6 +5,7 @@ import Link from "next/link";
 import ConfigData from "../../../config";
 import { RiArrowLeftLine, RiArrowRightLine } from "react-icons/ri";
 import { FiArrowRight } from "react-icons/fi";
+import Image from "next/image";
 
 const ImpactStoriesPost = ({ slug }) => {
   const siteUrl = ConfigData.wpApiUrl;
@@ -130,7 +131,9 @@ const ImpactStoriesPost = ({ slug }) => {
                 />
                 {post.acf?.banner_image?.url && (
                   <div>
-                    <img
+                    <Image
+                    width={600}
+                    height={400}
                       src={post.acf.banner_image.url}
                       alt={post.title.rendered}
                       className="w-full mb-5"
@@ -168,7 +171,9 @@ const ImpactStoriesPost = ({ slug }) => {
                                 <h3 className="text-2xl text-[#262626] group-hover:text-white flex items-center mb-6">
                                   {post.title.rendered}
                                 </h3>
-                                <img
+                                <Image
+                                width={400}
+                                height={400}
                                   src={post.acf.banner_image.url}
                                   alt={post.title.rendered}
                                   className="h-60 object-cover w-full transform transition-transform duration-500 group-hover:scale-110"

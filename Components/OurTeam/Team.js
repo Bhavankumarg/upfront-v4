@@ -22,8 +22,11 @@ const Team = () => {
                 } relative`}
               >
                 <div className="relative group overflow-hidden">
-                  <img
+                  <Image
+                  width={600}
+                  height={300}
                     src={item.imageUrl}
+                    alt="image"
                     className="mx-auto pt-2 lg:w-[26vw] transition-transform duration-300 group-hover:scale-110 borer-0"
                   />
                  
@@ -46,6 +49,7 @@ const Team = () => {
                         width={30}
                         height={30}
                         className="mt-3 lg:mx-0 mx-10"
+                        alt="mentor"
                       />
                     </Link>
                   </>

@@ -4,6 +4,7 @@ import React, { useEffect, useState } from "react";
 import ConfigData from "../../config";
 import Link from "next/link";
 import Head from "next/head";
+import Image from "next/image";
 
 const NewsAndPublications = () => {
   const siteUrl = ConfigData.wpApiUrl;
@@ -102,7 +103,9 @@ const NewsAndPublications = () => {
                         target="_blank"
                         href={`${post.acf.news_and_publications_url}`}
                       >
-                        <img
+                        <Image
+                        width={300}
+                        height={300}
                           src={post.acf.thumbnail_image.url}
                           alt={post.title.rendered}
                           className="w-52"

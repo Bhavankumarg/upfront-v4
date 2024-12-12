@@ -74,7 +74,7 @@ const Tabs = () => {
                   </p>
                   <div className="flex items-center gap-3 bg-black h-28 lg:w-96 w-full lg:p-5 p-2 ">
                     <div className="bg-white text-red-500 p-2 rounded-full">
-                      <Image src={item.logo} width={30} height={30} />
+                      <Image src={item.logo} width={30} height={30} alt="logo"/>
                     </div>
                     <h3 className="text-xl  text-white">{item.title}</h3>
                   </div>

@@ -8,6 +8,7 @@ import ConfigData from "../../config";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Image from "next/image";
 
 const RecentBlogs = () => {
   const siteUrl = ConfigData.wpApiUrl;
@@ -74,21 +75,23 @@ const RecentBlogs = () => {
                   <div className="lg:flex justify-center items-center group hover:bg-black">
                     <div className="w-full md:w-1/2">
                       {post.acf && post.acf.thumbnail_image && (
-                        <img
+                        <Image
+                          width={700}
+                          height={500}
                           src={post.acf.thumbnail_image.url}
                           alt={post.title.rendered}
-                          className="h-auto object-cover lg:w-[30vw] transform transition-transform duration-500 group-hover:scale-100 w-full"
+                          className="h-auto object-cover transform transition-transform duration-500 group-hover:scale-100 w-full"
                         />
                       )}
                     </div>
                     <div className="w-full md:w-1/2 px-4 py-4 ">
-                    <Link href={`/blogs/${post.slug}`}>
-                      <h2
-                        className="text-2xl post-content lg:text-3xl group-hover:text-white group-hover:underline"
-                        dangerouslySetInnerHTML={{
-                          __html: post.title.rendered,
-                        }}
-                      ></h2>
+                      <Link href={`/blogs/${post.slug}`}>
+                        <h2
+                          className="text-2xl post-content lg:text-3xl group-hover:text-white group-hover:underline"
+                          dangerouslySetInnerHTML={{
+                            __html: post.title.rendered,
+                          }}
+                        ></h2>
                       </Link>
 
                       <div

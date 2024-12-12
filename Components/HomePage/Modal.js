@@ -1,4 +1,5 @@
 import { modalContent } from "@/utils/data";
+import Image from "next/image";
 import { FiX } from "react-icons/fi";
 
 const Modal = ({ isOpen, onClose, content }) => {
@@ -9,7 +10,9 @@ const Modal = ({ isOpen, onClose, content }) => {
       <div className="bg-white rounded-lg w-[90vw] lg:h-[70vh] max-h-max max-w-4xl p-6 shadow-lg overflow-y-auto">
         {/* Header Section */}
         <div className="relative flex justify-center flex-col items-center">
-          <img
+          <Image
+           width={300}
+           height={300}
             src={content.image}
             alt={content.title}
             className="lg:w-[40vw] max-w-full h-80 object-cover"
@@ -38,7 +41,9 @@ const Modal = ({ isOpen, onClose, content }) => {
             {modalContent.sections.map((section, index) => (
               <div key={index} className="flex items-start space-x-4">
                 {/* Icon */}
-                <img
+                <Image
+                width={400}
+                height={400}
                   src={section.icon}
                   alt={section.title}
                   className="w-12 h-12"
