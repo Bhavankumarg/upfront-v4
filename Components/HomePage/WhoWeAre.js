@@ -8,7 +8,7 @@ const WhoWeAre = () => {
         <p className="mt-5 custom-title lg:text-2xl text-xl md:text-3xl">
           Who We Are
         </p>
-        <p className="secondary-title lg:text-3xl text-2xl md:text-5xl mt-2">
+        <p className="secondary-title lg:text-5xl text-2xl md:text-5xl mt-2">
           Catalysts of Change for Workforce Wellbeing
       </p>
       </div>
